@@ -25,5 +25,13 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Run Kotlin Application
-      run: ./gradlew run
+    - name: Run Kotlin Application and Save Output
+      run: ./gradlew run > output.txt
+
+    - name: Publish to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        publish_branch: gh-pages
+        destination_dir: output
