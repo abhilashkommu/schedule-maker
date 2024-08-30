@@ -4,6 +4,7 @@ data class Team(val name: String, var otherDivisionAdditionalGameCount: Int = 0)
 data class Division(val name: String, val teams: List<Team>, var playedOtherDivisionAdditionalGames: Boolean = false)
 
 fun main() {
+    println("\u001B[1m")
     val schedule = mutableListOf<Pair<Team, Team>>()
     val weeks = MutableList(14) { mutableListOf<Pair<Team, Team>>() }
 
@@ -20,7 +21,7 @@ fun main() {
     distributeGames(schedule, weeks)
 
     // Print the schedule
-    printScheduleInTableFormat(weeks)
+    printSchedule(weeks)
 }
 
 private fun prepareDivisions(teams: MutableList<Team>): List<Division> {
@@ -52,15 +53,18 @@ fun prepareTeams(): MutableList<Team> {
 
 private fun printSchedule(weeks: MutableList<MutableList<Pair<Team, Team>>>) {
     var gamesCount = 0
+
     for (week in weeks.indices) {
         println("Week ${week + 1}:")
+        println("--------")
         for (game in weeks[week]) {
-            println("${game.first.name} vs ${game.second.name}")
+            println("${game.first.name} VS ${game.second.name}")
             gamesCount++
         }
         println()
-        println("Total games: $gamesCount")
+        println("=================================================")
     }
+    println("Total games: $gamesCount")
 }
 
 fun printScheduleInTableFormat(weeks: List<List<Pair<Team, Team>>>) {
@@ -80,7 +84,6 @@ fun distributeGames(
     schedule: MutableList<Pair<Team, Team>>,
     weeks: MutableList<MutableList<Pair<Team, Team>>>
 ) {
-    println("Shuffling and distributing games into 14 weeks with 6 games each week...")
     schedule.shuffle()
     val teamGamesPerWeek = mutableMapOf<Team, MutableSet<Int>>()
     for (week in weeks.indices) {
