@@ -1,0 +1,153 @@
+> Task :checkKotlinGradlePluginConfigurationErrors
+> Task :compileKotlin UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+[1m
+Total games: 84
+Week 1:
+--------
+Son's of Pitches VS Vishnu's Dazzling Team
+Shiva's Fabulous Team VS Ashwin's Agreeable Team
+Varun's Tompa Bay Strikers VS Mohan's Marvelous Team
+Sai Manoj's Super Team VS NaatuguntalaGang
+Vamsi's Victorious Team VS Anirudh's Bihar Batch
+Sampath's Nifty Team VS Deccan Chargers
+
+=================================================
+Week 2:
+--------
+Varun's Tompa Bay Strikers VS Vishnu's Dazzling Team
+Anirudh's Bihar Batch VS Son's of Pitches
+Shiva's Fabulous Team VS NaatuguntalaGang
+Sai Manoj's Super Team VS Mohan's Marvelous Team
+Sampath's Nifty Team VS Ashwin's Agreeable Team
+Vamsi's Victorious Team VS Deccan Chargers
+
+=================================================
+Week 3:
+--------
+Ashwin's Agreeable Team VS Son's of Pitches
+Sai Manoj's Super Team VS Varun's Tompa Bay Strikers
+Anirudh's Bihar Batch VS Mohan's Marvelous Team
+Shiva's Fabulous Team VS Sampath's Nifty Team
+Vamsi's Victorious Team VS Vishnu's Dazzling Team
+NaatuguntalaGang VS Deccan Chargers
+
+=================================================
+Week 4:
+--------
+Shiva's Fabulous Team VS Anirudh's Bihar Batch
+Sai Manoj's Super Team VS Vishnu's Dazzling Team
+Sampath's Nifty Team VS Varun's Tompa Bay Strikers
+Son's of Pitches VS Deccan Chargers
+NaatuguntalaGang VS Mohan's Marvelous Team
+Vamsi's Victorious Team VS Ashwin's Agreeable Team
+
+=================================================
+Week 5:
+--------
+Sai Manoj's Super Team VS Son's of Pitches
+Mohan's Marvelous Team VS Vishnu's Dazzling Team
+Shiva's Fabulous Team VS Varun's Tompa Bay Strikers
+Anirudh's Bihar Batch VS NaatuguntalaGang
+Sampath's Nifty Team VS Vamsi's Victorious Team
+Ashwin's Agreeable Team VS Deccan Chargers
+
+=================================================
+Week 6:
+--------
+Son's of Pitches VS Varun's Tompa Bay Strikers
+Shiva's Fabulous Team VS Vishnu's Dazzling Team
+Ashwin's Agreeable Team VS Sai Manoj's Super Team
+Sampath's Nifty Team VS Mohan's Marvelous Team
+Vamsi's Victorious Team VS NaatuguntalaGang
+Anirudh's Bihar Batch VS Deccan Chargers
+
+=================================================
+Week 7:
+--------
+NaatuguntalaGang VS Vishnu's Dazzling Team
+Vamsi's Victorious Team VS Sampath's Nifty Team
+Ashwin's Agreeable Team VS Varun's Tompa Bay Strikers
+Mohan's Marvelous Team VS Deccan Chargers
+Anirudh's Bihar Batch VS Sai Manoj's Super Team
+Shiva's Fabulous Team VS Son's of Pitches
+
+=================================================
+Week 8:
+--------
+Varun's Tompa Bay Strikers VS NaatuguntalaGang
+Sampath's Nifty Team VS Vishnu's Dazzling Team
+Shiva's Fabulous Team VS Vamsi's Victorious Team
+Son's of Pitches VS Mohan's Marvelous Team
+Ashwin's Agreeable Team VS Anirudh's Bihar Batch
+Sai Manoj's Super Team VS Deccan Chargers
+
+=================================================
+Week 9:
+--------
+Sai Manoj's Super Team VS Ashwin's Agreeable Team
+Sampath's Nifty Team VS Anirudh's Bihar Batch
+Shiva's Fabulous Team VS Deccan Chargers
+Vamsi's Victorious Team VS Varun's Tompa Bay Strikers
+NaatuguntalaGang VS Son's of Pitches
+Vishnu's Dazzling Team VS Mohan's Marvelous Team
+
+=================================================
+Week 10:
+--------
+Sampath's Nifty Team VS Sai Manoj's Super Team
+Vamsi's Victorious Team VS Son's of Pitches
+Vishnu's Dazzling Team VS Deccan Chargers
+Shiva's Fabulous Team VS Mohan's Marvelous Team
+NaatuguntalaGang VS Varun's Tompa Bay Strikers
+Anirudh's Bihar Batch VS Ashwin's Agreeable Team
+
+=================================================
+Week 11:
+--------
+Ashwin's Agreeable Team VS Mohan's Marvelous Team
+Vamsi's Victorious Team VS Shiva's Fabulous Team
+Varun's Tompa Bay Strikers VS Deccan Chargers
+Sampath's Nifty Team VS NaatuguntalaGang
+Son's of Pitches VS Vishnu's Dazzling Team
+Sai Manoj's Super Team VS Anirudh's Bihar Batch
+
+=================================================
+Week 12:
+--------
+Deccan Chargers VS Vishnu's Dazzling Team
+NaatuguntalaGang VS Mohan's Marvelous Team
+Sampath's Nifty Team VS Ashwin's Agreeable Team
+Vamsi's Victorious Team VS Sai Manoj's Super Team
+Shiva's Fabulous Team VS Anirudh's Bihar Batch
+Varun's Tompa Bay Strikers VS Son's of Pitches
+
+=================================================
+Week 13:
+--------
+Sampath's Nifty Team VS Son's of Pitches
+Ashwin's Agreeable Team VS NaatuguntalaGang
+Vamsi's Victorious Team VS Mohan's Marvelous Team
+Anirudh's Bihar Batch VS Vishnu's Dazzling Team
+Varun's Tompa Bay Strikers VS Deccan Chargers
+Shiva's Fabulous Team VS Sai Manoj's Super Team
+
+=================================================
+Week 14:
+--------
+Sampath's Nifty Team VS Shiva's Fabulous Team
+Son's of Pitches VS NaatuguntalaGang
+Vamsi's Victorious Team VS Sai Manoj's Super Team
+Ashwin's Agreeable Team VS Vishnu's Dazzling Team
+Anirudh's Bihar Batch VS Varun's Tompa Bay Strikers
+Deccan Chargers VS Mohan's Marvelous Team
+
+=================================================
+Total games: 84
+
+BUILD SUCCESSFUL in 564ms
+3 actionable tasks: 2 executed, 1 up-to-date
