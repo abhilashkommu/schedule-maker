@@ -101,6 +101,8 @@ jobs:
       run: ./gradlew run
 ```
 
+[![Run Schedule Maker](https://github.com/abhilashkommu/schedule-maker/actions/workflows/main.yml/badge.svg)](https://github.com/abhilashkommu/schedule-maker/actions/workflows/main.yml)
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
