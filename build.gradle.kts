@@ -16,6 +16,14 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(18)
+}
+
+tasks.register<JavaExec>("run") {
+    group = "application"
+    description = "Run the main class"
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("com.akommu.tools.MainKt")
 }
