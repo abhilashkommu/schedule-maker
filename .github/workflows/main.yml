@@ -1,0 +1,29 @@
+name: Run Schedule Maker
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up JDK 18
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '18'
+
+    - name: Build with Gradle
+      run: ./gradlew build
+
+    - name: Run Kotlin Application
+      run: ./gradlew run
