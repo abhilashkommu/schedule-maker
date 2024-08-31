@@ -121,7 +121,7 @@ fun distributeGames(
 private fun prepareGames(
     teams: List<Team>,
     schedule: MutableList<Pair<Team, Team>>,
-    divisions: List<Division>,
+    divisions: List<Division>
 ) {
     val random = java.util.Random()
     // Each team plays all other teams at least once
